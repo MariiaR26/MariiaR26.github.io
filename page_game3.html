@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game second</title>
+    <link rel="stylesheet" href="styles/style_index.css">
+    <style>
+        body {
+          background-image: url('img/background11.png');
+          background-size: cover; /* Встановлюємо розмір зображення для заповнення фону */
+        }
+      </style>
+</head>
+<body>
+    <header class="head">
+        <div class="site-icon">
+            
+        </div>
+        <div align="right" class="your-class">
+            <a href="https://www.facebook.com/nureKharkiv/">
+              <img src="icons/icons8-facebook.svg" height="50px" width="50px">
+            </a>
+            <a href="https://instagram.com/kravets_ann_?igshid=MzRlODBiNWFlZA==">
+                <img src="icons/icons8-instagram.svg" height="50px" width="50px">
+              </a>
+              <a href="https://nure.ua/en/branch/centre-for-education-in-english/whatsapp">
+                <img src="icons/icons8-whatsapp.svg" height="50px" width="50px">
+              </a>
+              <a href="https://t.me/nure_press">
+                <img src="icons/icons8-telegram-app.svg" height="50px" width="50px">
+              </a>
+             
+    
+          </div>
+    </header>
+
+    <div class="welcome-message">
+        
+        
+        
+    </div>
+    <table id="data-table">
+      <tr>
+        <th> Правила</th>
+        
+      </tr>
+    </table>
+    <button onclick="window.location.href = 'index.html';" style="width: 200px; height: 60px; border-radius: 8px; position: fixed; bottom: 20px; left: 20px; background-color: rgb(15, 136, 173);;"><h3> Home</h3></button>
+    <button onclick="redirectToNextPage()" style="width: 200px; height: 60px; border-radius: 8px; position: fixed; bottom: 20px; right: 20px; background-color:  rgb(15, 136, 173);;"> <h3> Next page</h3></button>
+
+
+<script>
+  function redirectToNextPage() {
+    // Отримуємо дані, які використовувалися на поточній сторінці
+    const dataToPass = JSON.stringify(dataSet); // Перетворюємо дані в рядок JSON
+
+    // Кодуємо дані для передачі через URL
+    const encodedData = encodeURIComponent(dataToPass);
+
+    // Формуємо посилання на наступну сторінку з параметрами
+    const nextPageURL = "page_game4.html?data=" + encodedData;
+
+    // Перенаправлення на наступну сторінку
+    window.location.href = nextPageURL;
+  }
+</script>
+<div> 
+    <br>
+
+</div>
+    <script src="game_thee.js"></script> 
+    
+  </body>
+  
+</html>

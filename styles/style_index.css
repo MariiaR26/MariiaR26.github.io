@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+body{
+    font-family: 'Kalam', cursive;
+}
+
+.head{
+    background-color: rgb(15, 136, 173);
+    padding: 10px;
+    height: 70px;
+}
+.header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-links a {
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .social-links a i {
+    width: 30px;
+    height: 30px;
+  }
+  
+footer.head {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px; /* Встановіть висоту вашого футера */
+    background-color:  rgb(15, 136, 173); /* Встановіть бажаний колір фону футера */
+    padding: 10px;
+  }
+  
+.my-table {
+    width: 70%;
+
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(0, 2, 2);
+    background-color: rgb(4, 184, 239);
+    margin-bottom: 100px; 
+    /* border: 3px solid black; */
+    /* background-color:  rgb(17, 158, 200); */
+}
+.my-tr{
+    height: 150px; 
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 25px;
+}
+.my-tr:hover{
+    background-color: rgb(15, 136, 173);
+}
+.my-td{
+    width: 25%; 
+    /* border: 1px solid black; */
+    text-align: center;
+}
